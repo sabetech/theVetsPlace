@@ -1,0 +1,35 @@
+Now this is how take stock is going to happen
+
+* I have a list of inventory items from database. get them from the database. dun think about arrangement
+
+* inside the while to construct the JSON arrays, you can contruct an array in an array.
+
+* .. user selects dates to take stock and the event is sent to javascript and then the link is created the date n existing + TAKESTOCK as parameters
+* .. query runs and gets all the items marked with existing, and wid current ... cuul Values are in there as color back
+* .. New values typed in there are in different color
+
+
+* you shud have a modify the stock information. where there's an edit button to enable the text and save to UPDATE the datebase ...Cuul
+-->user selects the date to edit and voila !!
+
+* how are my doing the JSON??
+Ans: each category will be an accordion already opened or Injectables already opened
+
+<items>
+	<injectables>
+		<item1> name and stuff</item1>
+	</injectables>
+</items>
+
+{"curItems":
+	[{"injectables":[{"itemName":"item1","itemQty":"27"}
+					 {"itemName":"item2","itemQty":"29"}
+					 {"itemName":"item3","itemQty":"32"}
+					]}, 
+	 {"Vaccines":[{"itemName":"item1","itemQty":"27"}
+				  {"itemName":"item2","itemQty":"29"}
+				  {"itemName":"item3","itemQty":"32"}
+				  ]
+	  }
+	]
+}

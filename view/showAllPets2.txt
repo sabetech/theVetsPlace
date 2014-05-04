@@ -1,0 +1,4 @@
+
+"<div class='span3' style='margin-left:2em;'>"+
+						"Choose the date<div id='dynDatePicker' class='fg-color-darken input-control text datepicker' data-role='datepicker'><input type='text' class='fg-color-darken' /><button class='btn-date'></button></div>Select<div class='input-control select'><select class='fg-color-darken'><option value='vac' class='fg-color-darken'>Vaccination</option>"+
+						"<option value='deworm' class='fg-color-darken'> Deworming</option></select></div>;
